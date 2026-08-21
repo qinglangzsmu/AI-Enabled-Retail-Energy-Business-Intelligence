@@ -9,42 +9,41 @@ AI-Enabled Retail Energy Business Intelligence
 ## Project Purpose
 
 The purpose of this project is to explore how modern business intelligence,
-data engineering, automation, and artificial intelligence can improve
-decision-making within the U.S. retail energy sector.
+data engineering, data quality practices, automation, and artificial
+intelligence can improve decision-making within the retail energy sector.
 
-The project will create an open-source analytical framework using publicly
-available and synthetic data.
+The project will develop an open-source BI framework using publicly available
+and synthetic data.
 
 ---
 
 ## Background
 
-Retail energy organizations manage large and complex portfolios of customers,
-products, contracts, and energy consumption.
+Retail energy organizations operate in a highly data-intensive environment.
 
-Business intelligence plays an important role in transforming operational
-and market data into actionable information.
+Business users need to understand customer consumption, product performance,
+market conditions, revenue, margin, and portfolio trends.
 
-However, traditional reporting often focuses primarily on historical
-performance.
-
-This project explores a more integrated approach combining:
+Traditional reporting provides visibility into historical performance.
+However, modern BI can extend beyond reporting by combining:
 
 - Reliable data pipelines
+- Governed business metrics
 - Dimensional data modeling
-- Standardized business metrics
-- Interactive BI
 - Data quality monitoring
+- Interactive dashboards
 - AI-assisted development
-- AI-assisted business insights
+- AI-assisted decision support
+
+This project explores how these capabilities can work together within a
+retail energy context.
 
 ---
 
 ## Primary Goal
 
-Develop a reusable BI framework that demonstrates how retail energy data can
-be transformed into actionable business intelligence and AI-assisted
-decision support.
+Build a reusable BI framework that transforms retail energy data into
+reliable, understandable, and actionable business intelligence.
 
 ---
 
@@ -52,19 +51,18 @@ decision support.
 
 The project aims to:
 
-1. Improve visibility into retail energy portfolio performance.
-2. Establish standardized and reusable business metrics.
-3. Demonstrate effective BI data modeling.
-4. Monitor data quality and pipeline health.
-5. Improve the efficiency of BI development through AI-assisted workflows.
-6. Explore how AI can help translate analytical results into business insights.
-7. Create a foundation for future advanced analytics.
+1. Establish a reliable retail energy data pipeline.
+2. Develop a reusable analytical data model.
+3. Define standardized and governed business metrics.
+4. Build interactive BI dashboards.
+5. Monitor data quality and pipeline health.
+6. Explore AI-assisted BI development.
+7. Explore AI-assisted business insight generation.
+8. Establish a foundation for future advanced analytics.
 
 ---
 
 ## Target Users
-
-The conceptual users of the platform include:
 
 ### Business Leaders
 
@@ -73,24 +71,27 @@ Interested in:
 - Revenue
 - Margin
 - Portfolio performance
-- Major business trends
+- Customer trends
+- Major business drivers
 
 ### Pricing & Analytics Teams
 
 Interested in:
 
 - Product performance
-- Pricing scenarios
+- Pricing analytics
 - Customer segments
 - Margin analysis
+- Portfolio trends
 
 ### BI Professionals
 
 Interested in:
 
 - Data pipelines
+- Data modeling
 - Semantic models
-- Reusable metrics
+- KPI governance
 - Data quality
 - Reporting automation
 
@@ -98,76 +99,14 @@ Interested in:
 
 Interested in:
 
-- Customer analytics
+- Customer behavior
 - Usage patterns
 - Portfolio trends
 - Business insights
 
 ---
 
-## Core Use Cases
-
-### Use Case 1 — Portfolio Performance
-
-Monitor:
-
-- Revenue
-- Energy volume
-- Margin
-- Customer count
-- Product performance
-
----
-
-### Use Case 2 — Customer Analytics
-
-Analyze:
-
-- Customer segments
-- Consumption patterns
-- Revenue contribution
-- Margin contribution
-- Retention and churn
-
----
-
-### Use Case 3 — Pricing Analytics
-
-Analyze:
-
-- Product performance
-- Pricing scenarios
-- Customer segment response
-- Expected margin
-
----
-
-### Use Case 4 — BI Operations
-
-Monitor:
-
-- Data freshness
-- Data completeness
-- Duplicate records
-- Pipeline status
-- Unexpected data changes
-
----
-
-### Use Case 5 — AI-Assisted BI
-
-Explore how AI can assist with:
-
-- SQL development
-- Documentation
-- Testing
-- Code refactoring
-- Business insight generation
-- Natural-language explanations
-
----
-
-## Project Scope
+## Scope
 
 ### In Scope
 
@@ -176,9 +115,9 @@ Explore how AI can assist with:
 - Synthetic customer data
 - Data engineering
 - BI data modeling
-- KPI development
+- KPI governance
+- Data quality
 - Dashboard development
-- Data quality monitoring
 - AI-assisted BI
 - Optional advanced analytics
 
@@ -194,177 +133,15 @@ Explore how AI can assist with:
 
 ---
 
-## Data Strategy
-
-The project will use three primary categories of data:
-
-### Energy Market Data
-
-Potential source:
-
-ERCOT
-
-Examples:
-
-- Load
-- Market prices
-- Generation
-
-### Energy Industry Data
-
-Potential source:
-
-U.S. Energy Information Administration
-
-Examples:
-
-- Retail electricity statistics
-- Regional energy information
-
-### Weather Data
-
-Potential source:
-
-NOAA
-
-Examples:
-
-- Temperature
-- Wind
-- Weather conditions
-
-### Customer Data
-
-Synthetic data will be generated for customer-level analysis.
-
-No real customer data will be used.
-
----
-
-## Data Model
-
-The initial data model will follow a dimensional modeling approach.
-
-### Dimensions
-
-- Dim Date
-- Dim Location
-- Dim Customer Segment
-- Dim Product
-
-### Facts
-
-- Fact Energy Usage
-- Fact Market Price
-- Fact Revenue
-- Fact Margin
-- Fact Weather
-
----
-
-## KPI Framework
-
-The initial KPI framework will include:
-
-### Portfolio
-
-- Revenue
-- Volume
-- Margin
-- Customer count
-
-### Customer
-
-- Active customers
-- New customers
-- Churn
-- Retention
-- Average usage
-
-### Product
-
-- Revenue
-- Volume
-- Margin
-- Customer contribution
-
-### Data Quality
-
-- Data freshness
-- Completeness
-- Duplicate records
-- Failed records
-
----
-
-## AI Strategy
-
-AI will be treated as an augmentation layer.
-
-The project will investigate two primary areas.
-
-### AI-Assisted Development
-
-Using tools such as GitHub Copilot to support:
-
-- Coding
-- SQL
-- Documentation
-- Testing
-- Refactoring
-
-### AI-Assisted Decision Support
-
-Using AI to:
-
-- Summarize KPI changes
-- Explain business trends
-- Identify potential areas for investigation
-- Convert analytical results into natural-language summaries
-
-AI output will not be treated as authoritative without validation.
-
----
-
 ## Success Criteria
 
-The first major version of the project will be considered successful when it contains:
+The first major version will be considered successful when it contains:
 
 - A reproducible data pipeline
-- A documented data model
-- Standardized KPI definitions
-- At least one complete BI dashboard
+- A documented analytical data model
+- A governed KPI framework
 - A data quality monitoring framework
+- At least one complete BI dashboard
 - AI-assisted BI functionality
 - Reproducible documentation
 - Public GitHub repository
-
----
-
-## Future Development
-
-Future versions may add:
-
-- Electricity demand forecasting
-- Customer churn prediction
-- Customer lifetime value
-- Pricing scenario modeling
-- Portfolio optimization
-- Advanced AI-assisted analytics
-
----
-
-## Professional Development Goal
-
-This project is intended to strengthen practical capabilities in:
-
-- Business Intelligence
-- Retail Energy Analytics
-- Data Engineering
-- Analytics Engineering
-- AI-Assisted Development
-- Decision Intelligence
-
-The project is also intended to create a public portfolio demonstrating
-practical applications of modern BI and AI technologies in the retail
-energy sector.
