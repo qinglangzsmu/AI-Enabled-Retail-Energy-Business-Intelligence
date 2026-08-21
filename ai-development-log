@@ -1,47 +1,123 @@
-```markdown
 # AI-Assisted Development Log
 
-This document records how AI-assisted development tools are used throughout
-the project.
+## Purpose
 
-The purpose is to document the development process and evaluate where AI
-provides meaningful improvements to BI and analytics workflows.
+This document records how AI-assisted development tools are used
+throughout the project.
+
+The objective is to understand how AI can improve productivity,
+reusability, documentation, testing, and BI development workflows.
+
+AI-generated output is reviewed and validated by the developer before
+being incorporated into the project.
 
 ---
 
-## Entry Template
+# Development Entry Template
 
-### Date
+## Date
 
 YYYY-MM-DD
 
-### Task
+## Task
 
-Describe the development task.
+Describe the task being completed.
 
-### AI Tool
+## AI Tool
 
 Example:
 
 GitHub Copilot
 
-### AI Assistance
+## Prompt / Request
 
-Describe what AI was used for.
+Describe the general request provided to the AI tool.
 
-### Human Contribution
+## AI Contribution
 
-Describe architectural decisions, modifications, validation, and testing
-performed by the developer.
+Describe what the AI generated or suggested.
 
-### Validation
+Examples:
 
-Describe how the result was tested or reviewed.
+- Python code
+- SQL
+- Unit tests
+- Documentation
+- Refactoring suggestions
 
-### Outcome
+## Human Contribution
+
+Describe:
+
+- Architectural decisions
+- Code modifications
+- Business logic
+- Validation
+- Testing
+- Final implementation decisions
+
+## Validation
+
+Describe how the output was validated.
+
+Examples:
+
+- Unit tests
+- Data validation
+- Manual review
+- SQL result comparison
+- Performance testing
+
+## Outcome
 
 Describe the final result.
 
-### Lessons Learned
+## Lessons Learned
 
-Describe what worked and what did not work.
+Describe what worked well and what could be improved.
+
+---
+
+# Example Entry
+
+## Date
+
+2026-08-XX
+
+## Task
+
+Create a reusable data validation function for checking
+missing and duplicate records.
+
+## AI Tool
+
+GitHub Copilot
+
+## AI Contribution
+
+Generated an initial Python implementation containing
+validation logic and error handling.
+
+## Human Contribution
+
+Reviewed the generated implementation, simplified the interface,
+defined the expected business rules, and added additional validation
+conditions.
+
+## Validation
+
+Tested the function using synthetic datasets containing:
+
+- Missing records
+- Duplicate records
+- Valid records
+
+## Outcome
+
+Created a reusable data-quality validation component.
+
+## Lessons Learned
+
+AI was effective at generating repetitive implementation code,
+while business rules and validation requirements still required
+human review.
