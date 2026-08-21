@@ -1,0 +1,38 @@
+# System Architecture
+
+## High-Level Architecture
+
+```text
+Public Energy Data
+        |
+        v
+Data Ingestion
+        |
+        v
+Raw Data Layer
+        |
+        v
+Transformation
+        |
+        v
+Analytics Data Model
+        |
+        v
+BI Semantic Layer
+        |
+   +----+----+----------------+
+   |         |                |
+   v         v                v
+Portfolio  Customer      BI Operations
+   BI        BI                BI
+   |         |                |
+   +---------+----------------+
+             |
+             v
+       AI-Assisted BI
+             |
+             v
+       Decision Support
+             |
+             v
+        BI Dashboard
