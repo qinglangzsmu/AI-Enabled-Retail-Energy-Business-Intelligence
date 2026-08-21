@@ -1,0 +1,47 @@
+```markdown
+# AI-Assisted Development Log
+
+This document records how AI-assisted development tools are used throughout
+the project.
+
+The purpose is to document the development process and evaluate where AI
+provides meaningful improvements to BI and analytics workflows.
+
+---
+
+## Entry Template
+
+### Date
+
+YYYY-MM-DD
+
+### Task
+
+Describe the development task.
+
+### AI Tool
+
+Example:
+
+GitHub Copilot
+
+### AI Assistance
+
+Describe what AI was used for.
+
+### Human Contribution
+
+Describe architectural decisions, modifications, validation, and testing
+performed by the developer.
+
+### Validation
+
+Describe how the result was tested or reviewed.
+
+### Outcome
+
+Describe the final result.
+
+### Lessons Learned
+
+Describe what worked and what did not work.
